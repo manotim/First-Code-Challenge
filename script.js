@@ -72,7 +72,7 @@ salary.addEventListener('click', (e)=>{
         let inputSalary=parseInt(document.getElementById('input-salary').value)
         console.log(inputSalary)
 let finalOutput
-
+// write Code For the Code challenge
 function calculateNetPay(taxablePay) {
   let taxableIncome = taxablePay - 2400; // remove personal relief of 2400 per month
   let paye = 0;           // initialize PAYE to 0
